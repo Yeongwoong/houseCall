@@ -1,0 +1,2 @@
+class GuRegion < ApplicationRecord
+end

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  specialist: one
+  kakao_id: MyString
+  license_number: MyString
+  gender: 1
+  birthday: 2018-12-13 15:18:59
+  career: MyString
+
+two:
+  specialist: two
+  kakao_id: MyString
+  license_number: MyString
+  gender: 1
+  birthday: 2018-12-13 15:18:59
+  career: MyString

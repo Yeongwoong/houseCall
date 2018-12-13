@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  medicine: one
+  volume: 9.99
+  method: MyString
+  duration_day: 1
+  treat_per_day: 1
+
+two:
+  medicine: two
+  volume: 9.99
+  method: MyString
+  duration_day: 1
+  treat_per_day: 1

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  request: one
+  doctor: one
+  disease: one
+  prescription: one
+  arrived_date_time: 2018-12-13 15:30:25
+  done_date_time: 2018-12-13 15:30:25
+  doctor_comment: MyString
+  charged_bill: 1
+
+two:
+  request: two
+  doctor: two
+  disease: two
+  prescription: two
+  arrived_date_time: 2018-12-13 15:30:25
+  done_date_time: 2018-12-13 15:30:25
+  doctor_comment: MyString
+  charged_bill: 1
