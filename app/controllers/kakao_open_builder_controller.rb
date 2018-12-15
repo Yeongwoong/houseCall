@@ -1,0 +1,2 @@
+class KakaoOpenBuilderController < ApplicationController
+end
