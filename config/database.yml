@@ -17,8 +17,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: housecall
-  password: hackathon1215
+  pool: 5
 
 
   # For details on connection pooling, see Rails configuration guide
@@ -28,6 +27,10 @@ default: &default
 development:
   <<: *default
   database: houseCall_development
+  username: housecall
+  password: hackathon1215
+  host: localhost
+  port: 5432
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -62,6 +65,10 @@ development:
 test:
   <<: *default
   database: houseCall_test
+  username: housecall
+  password: hackathon1215
+  host: localhost
+  port: 5432
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
